@@ -16,3 +16,16 @@ print("file fruits.txt has been created")
 # TO DO 3: Run the 'ls' command.
 # TO DO 4: Print the contents of fruits.txt in a loop.
 
+#print "Reading file..." statement
+print("\nReading the file fruits.txt ...")
+
+#read each line of fruits.txt and print
+with open("fruits.txt", "r") as infile:
+
+    line = infile.readline()
+
+    while line != "":
+        print(line)
+        line = infile.readline()
+
+
