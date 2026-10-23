@@ -16,3 +16,4 @@ def main():
   safe_divide(10,5)  # works
   safe_divide(10,0)  # exception : Zero Division Error
   
+
