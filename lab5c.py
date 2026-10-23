@@ -21,7 +21,7 @@ with open("rhyme.txt", "r") as infile:
   while line != "":
 
     #strip white spaces and . from each line
-    line =line.strip("\n")
+    line =line.strip()
     line = line.strip(".")
 
     #print line and number of words in line
